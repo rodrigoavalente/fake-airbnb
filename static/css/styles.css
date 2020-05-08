@@ -1,0 +1,115 @@
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 0;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #a09494;
+    border-radius: 12px;
+}
+
+.item-image {
+    width: 300px;
+    height: 200px;
+}
+
+.img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.item-image img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    max-width: 300px;
+    border-radius: 16px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    width: 200px;
+}
+
+.badge {
+    color: white;
+    font-weight: bold;
+    border-radius: 16px;
+    text-align: center;
+    width: fit-content;
+    padding: 3px;
+}
+
+.color-apartment {
+    background-color: rgb(27, 27, 216);
+}
+
+.color-farm {
+    background-color: #336767;
+}
+
+.color-house {
+    background-color: #8fa6e8
+}
+
+.color-studio {
+    background-color: #2a7b55;
+}
+
+.color-loft {
+    background-color: #ef563c
+}
+
+.color-room {
+    background-color: #0dbeaa;
+}
+
+.color-site {
+    background-color: #3d71da;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.actions select,
+input {
+    background-color: #fff;
+    border-color: #e8e8e8;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: large;
+    border-style: solid;
+    text-align: right;
+}
+
+.actions .load-more {
+    font-size: large;
+    border-radius: 12px;
+    background-color: #3295ec;
+    border-color: transparent;
+    color: #fff;
+}
+
+.actions .clean {
+    font-size: large;
+    border-radius: 12px;
+    background-color: #bc0000;
+    border-color: transparent;
+    color: #fff;
+}
